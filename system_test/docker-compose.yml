@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  system-test:
+    build: system_test/
+    depends_on:
+      - "web"
+    links:
+      - web
+    

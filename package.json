@@ -1,0 +1,31 @@
+{
+  "name": "thumbnailserver",
+  "version": "1.0.0",
+  "description": "Thumbnail Generation Application",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/arunmathew88/thumbnail_service.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [],
+  "author": "Arun Mathew",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "gm": "^1.23.1",
+    "node-resque": "^7.0.4"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.2",
+    "nodemon": "^2.0.4",
+    "supertest": "^4.0.2"
+  }
+}
