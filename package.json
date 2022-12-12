@@ -16,7 +16,7 @@
   "author": "Arun Mathew",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "formidable": "^1.2.2",
     "gm": "^1.23.1",
     "node-resque": "^7.0.4"
